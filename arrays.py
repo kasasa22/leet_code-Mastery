@@ -1,22 +1,7 @@
-import array as arr
+arr = [ 1, 3,5,6,7,98,0,65,44]
 
-nums = arr.array('i', [1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 ,10])
+##radom acess
 
-print ('create array: ' , end= '')
+print(arr[3])
 
-for i in range(len(nums)):
-    print(nums[i] , end='')
-
-nums.pop(2)
-
-print ('After Poping: ' , end='')
-
-for i in range(len(nums)):
-    print(nums[i] , end='')
-
-
-
-
-
-
-
+x =15
